@@ -1,13 +1,12 @@
 <template>
-  <nav class="navbar">
-    <div class="leftNavbar">
+  <nav>
+    <div class="navbar">
       <ul>
-        <li><a href="">比比昂日本購物</a></li>
-        <li><a href="">泰國購物</a></li>
-        <li>
-          <div class="navItem">
-            <span>綜合服務</span>
-            <!-- <ul>
+        <li class="JPshop"><a href="">比比昂日本購物</a></li>
+        <li class="THshop"><a href="">泰國購物</a></li>
+        <li class="serve">
+          綜合服務
+          <!-- <ul>
               網路服務
               <li>PChome 商店街</li>
               <li>露天拍賣</li>
@@ -24,68 +23,71 @@
               旅遊娛樂
               <li>PChome 旅遊</li>
             </ul> -->
-          </div>
         </li>
       </ul>
     </div>
-    <div class="rightNavbar">
+    <div class="navItems">
       <ul>
         <li><router-link to="">最近看過</router-link></li>
         <li><router-link to="">購物車</router-link></li>
         <li><router-link to="">我的訂單</router-link></li>
-        <li>
-          <div class="customer">
-            顧客中心
-            <!-- <ul>
-                      <li>追蹤清單</li>
-                      <li>故障通報</li>
-                      <li>退貨</li>
-                      <li>會員設定</li>
-                    </ul> -->
-          </div>
+        <li class="customer">
+          顧客中心
+          <!-- <ul>
+                <li>追蹤清單</li>
+                <li>故障通報</li>
+                <li>退貨</li>
+                <li>會員設定</li>
+              </ul> -->
         </li>
-        <li>
-          <div class="download">
-            下載APP
-            <ul>
-              <!-- <li>QRCode</li>
-                      <li>享受APP專屬優惠</li> -->
-            </ul>
-          </div>
+        <li class="download">
+          下載APP
+          <ul>
+            <!-- <li>QRCode</li>
+              <li>享受APP專屬優惠</li> -->
+          </ul>
         </li>
-        <li><router-link to="">註冊</router-link></li>
-        <li><router-link to="">登入</router-link></li>
+        <li><router-link to="">註冊｜登入 </router-link></li>
       </ul>
     </div>
   </nav>
 </template>
 <style scoped>
-.navbar {
+nav {
+  display: grid;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #aa0000;
   color: white;
-  background-color: #9e0a0a;
 }
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
+
+/* .navbar {
+} */
+
+.navItems {
+  grid-column: 3/3;
+  margin: 0 0 0 auto;
 }
 
 li {
-  float: left;
-  margin: 0;
-  padding: 8px 10px;
   overflow: hidden;
+  display: inline-block;
 }
 
 li a {
-  display: block;
   color: white;
-  text-align: center;
-  padding: 14px 16px;
   text-decoration: none;
 }
 
-/* li a:hover {
-} */
+li a:hover {
+  color: #e6b3b3;
+}
+
+.navbar li {
+  margin-right: 30px;
+}
+
+.navItems li {
+  margin-right: 15px;
+}
 </style>
