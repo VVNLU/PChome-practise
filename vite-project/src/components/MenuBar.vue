@@ -1,681 +1,770 @@
 <template>
-  <div>
-    <div>
-      <span>3C</span>
-      <ul>
-        品牌旗艦
-        <li>SanDisk</li>
-        <li>Seagate</li>
-        <li>TP-Link</li>
-        <li>創見</li>
-        <li>三星儲存</li>
-      </ul>
-      <ul>
-        相關分類
-        <li>筆記電腦</li>
-        <li>桌上電腦</li>
-        <li>商用電腦</li>
-        <li>DIY電腦</li>
-        <li>LCD電腦</li>
-        <li>電競螢幕</li>
-        <li>網路</li>
-        <li>視訊監控</li>
-        <li>SSD</li>
-        <li>外接硬碟/SSD</li>
-        <li>內接硬碟</li>
-        <li>網路硬碟</li>
-        <li>CPU</li>
-        <li>主機板</li>
-        <li>顯示卡</li>
-        <li>電源供應器</li>
-        <li>電腦機殼</li>
-        <li>記憶體</li>
-        <li>記憶卡</li>
-        <li>隨身碟</li>
-        <li>UPS</li>
-        <li>電腦擴充</li>
-        <li>軟體</li>
-        <li>耗材</li>
-        <li>線材</li>
-        <li>電競專區</li>
-        <li>台灣精品</li>
-        <li>企業專區</li>
-        <li>清倉</li>
-        <li>南紡3C</li>
-        <li>露天</li>
-      </ul>
-      <span>所有3C</span>
+  <div class="drp">
+    <div class="dropdown">
+      <button class="dropBtn">3C</button>
+      <div class="dropdown-content">
+        <span>品牌旗艦</span>
+        <ul>
+          <li><a href="#">SanDisk</a></li>
+          <li><a href="#">Seagate</a></li>
+          <li><a href="#">TP-Link</a></li>
+          <li><a href="#">創見</a></li>
+          <li><a href="#">三星儲存</a></li>
+        </ul>
+        <span>相關分類</span>
+        <ul>
+          <li><a href="#">筆記電腦</a></li>
+          <li><a href="#">桌上電腦</a></li>
+          <li><a href="#">商用電腦</a></li>
+          <li><a href="#">DIY電腦</a></li>
+          <li><a href="#">LCD電腦</a></li>
+          <li><a href="#">電競螢幕</a></li>
+          <li><a href="#">網路</a></li>
+          <li><a href="#">視訊監控</a></li>
+          <li><a href="#">SSD</a></li>
+          <li><a href="#">外接硬碟/SSD</a></li>
+          <li><a href="#">內接硬碟</a></li>
+          <li><a href="#">網路硬碟</a></li>
+          <li><a href="#">CPU</a></li>
+          <li><a href="#">主機板</a></li>
+          <li><a href="#">顯示卡</a></li>
+          <li><a href="#">電源供應器</a></li>
+          <li><a href="#">電腦機殼</a></li>
+          <li><a href="#">記憶體</a></li>
+          <li><a href="#">記憶卡</a></li>
+          <li><a href="#">隨身碟</a></li>
+          <li><a href="#">UPS</a></li>
+          <li><a href="#">電腦擴充</a></li>
+          <li><a href="#">軟體</a></li>
+          <li><a href="#">耗材</a></li>
+          <li><a href="#">線材</a></li>
+          <li><a href="#">電競專區</a></li>
+          <li><a href="#">台灣精品</a></li>
+          <li><a href="#">企業專區</a></li>
+          <li><a href="#">清倉</a></li>
+          <li><a href="#">南紡3C</a></li>
+          <li><a href="#">露天</a></li>
+        </ul>
+        <span>所有3C</span>
+      </div>
     </div>
-    <div>
-      <span>周邊</span>
-      <ul>
-        品牌旗艦
-        <li>Logitech/羅技</li>
-        <li>Razer雷蛇</li>
-        <li>HyperX</li>
-        <li>微軟Office</li>
-        <li>Marshall</li>
-      </ul>
-      <ul>
-        相關分類
-        <li>滑鼠</li>
-        <li>鍵盤</li>
-        <li>喇叭</li>
-        <li>耳機/麥克風</li>
-        <li>直播設備</li>
-        <li>線材</li>
-        <li>延長線</li>
-        <li>USBHUB/周邊</li>
-        <li>電競椅</li>
-        <li>辦公椅</li>
-        <li>手寫/繪圖板</li>
-        <li>閱讀器</li>
-        <li>電腦軟體</li>
-        <li>下載/點數</li>
-        <li>辦公設備</li>
-        <li>營業設備</li>
-        <li>辦公傢俱</li>
-        <li>噴墨印表機</li>
-        <li>雷射印表機</li>
-        <li>墨水匣/標籤帶</li>
-        <li>碳粉匣</li>
-        <li>紙類</li>
-        <li>商用列印</li>
-        <li>充電/電池</li>
-        <li>筆電周邊/配件</li>
-        <li>光碟片/機</li>
-        <li>三井3C</li>
-        <li>電腦/商務包</li>
-        <li>嚴選小舖</li>
-      </ul>
-      <span>所有周邊</span>
+    <div class="dropdown">
+      <button class="dropBtn">周邊</button>
+      <div class="dropdown-content">
+        <span>品牌旗艦</span>
+        <ul>
+          <li><a href="#">Logitech/羅技</a></li>
+          <li><a href="#">Razer雷蛇</a></li>
+          <li><a href="#">HyperX</a></li>
+          <li><a href="#">微軟Office</a></li>
+          <li><a href="#">Marshall</a></li>
+        </ul>
+        <span>相關分類</span>
+        <ul>
+          <li><a href="#">滑鼠</a></li>
+          <li><a href="#">鍵盤</a></li>
+          <li><a href="#">喇叭</a></li>
+          <li><a href="#">耳機/麥克風</a></li>
+          <li><a href="#">直播設備</a></li>
+          <li><a href="#">線材</a></li>
+          <li><a href="#">延長線</a></li>
+          <li><a href="#">USBHUB/周邊</a></li>
+          <li><a href="#">電競椅</a></li>
+          <li><a href="#">辦公椅</a></li>
+          <li><a href="#">手寫/繪圖板</a></li>
+          <li><a href="#">閱讀器</a></li>
+          <li><a href="#">電腦軟體</a></li>
+          <li><a href="#">下載/點數</a></li>
+          <li><a href="#">辦公設備</a></li>
+          <li><a href="#">營業設備</a></li>
+          <li><a href="#">辦公傢俱</a></li>
+          <li><a href="#">噴墨印表機</a></li>
+          <li><a href="#">雷射印表機</a></li>
+          <li><a href="#">墨水匣/標籤帶</a></li>
+          <li><a href="#">碳粉匣</a></li>
+          <li><a href="#">紙類</a></li>
+          <li><a href="#">商用列印</a></li>
+          <li><a href="#">充電/電池</a></li>
+          <li><a href="#">筆電周邊/配件</a></li>
+          <li><a href="#">光碟片/機</a></li>
+          <li><a href="#">三井3C</a></li>
+          <li><a href="#">電腦/商務包</a></li>
+          <li><a href="#">嚴選小舖</a></li>
+        </ul>
+        <span>所有周邊</span>
+      </div>
     </div>
-    <div>
-      <span>NB</span>
-      <ul>
-        品牌旗艦
-        <li>Intel第13&12代</li>
-        <li>筆記電腦</li>
-        <li>ASUS華碩</li>
-        <li>ACER宏碁</li>
-        <li>HP惠普</li>
-        <li>Lenovo聯想</li>
-        <li>微軟Surface</li>
-        <li>DELL戴爾</li>
-        <li>其他品牌</li>
-        <li>APPLE</li>
-        <li>ASUSZenBook</li>
-        <li>ThinkPad商務</li>
-        <li>ROG潮流電競</li>
-        <li>MSI微星電競</li>
-        <li>技嘉電競</li>
-        <li>RAZER電競</li>
-        <li>HP電競</li>
-        <li>LEGION電競</li>
-      </ul>
-      <ul>
-        相關分類
-        <li>特仕筆電</li>
-        <li>商用筆電</li>
-        <li>EVO輕薄筆電</li>
-        <li>2in1/觸控筆電</li>
-        <li>電競筆電</li>
-        <li>NVIDIA創作專區</li>
-        <li>MSI微星</li>
-        <li>Mac周邊</li>
-      </ul>
+    <div class="dropdown">
+      <button class="dropBtn">NB</button>
+      <div class="dropdown-content">
+        <span>品牌旗艦</span>
+        <ul>
+          <li><a href="#">Intel第13&12代</a></li>
+          <li><a href="#">筆記電腦</a></li>
+          <li><a href="#">ASUS華碩</a></li>
+          <li><a href="#">ACER宏碁</a></li>
+          <li><a href="#">HP惠普</a></li>
+          <li><a href="#">Lenovo聯想</a></li>
+          <li><a href="#">微軟Surface</a></li>
+          <li><a href="#">DELL戴爾</a></li>
+          <li><a href="#">其他品牌</a></li>
+          <li><a href="#">APPLE</a></li>
+          <li><a href="#">ASUSZenBook</a></li>
+          <li><a href="#">ThinkPad商務</a></li>
+          <li><a href="#">ROG潮流電競</a></li>
+          <li><a href="#">MSI微星電競</a></li>
+          <li><a href="#">技嘉電競</a></li>
+          <li><a href="#">RAZER電競</a></li>
+          <li><a href="#">HP電競</a></li>
+          <li><a href="#">LEGION電競</a></li>
+        </ul>
+        <span>相關分類</span>
+        <ul>
+          <li><a href="#">特仕筆電</a></li>
+          <li><a href="#">商用筆電</a></li>
+          <li><a href="#">EVO輕薄筆電</a></li>
+          <li><a href="#">2in1/觸控筆電</a></li>
+          <li><a href="#">電競筆電</a></li>
+          <li><a href="#">NVIDIA創作專區</a></li>
+          <li><a href="#">MSI微星</a></li>
+          <li><a href="#">Mac周邊</a></li>
+        </ul>
+        <span>所有NB</span>
+      </div>
     </div>
-    <div>
-      <span>通訊</span>
-      <ul>
-        品牌旗艦
-        <li>APPLE</li>
-        <li>三星旗艦</li>
-        <li>Android</li>
-        <li>Google</li>
-        <li>小米</li>
-        <li>realme</li>
-        <li>Jabra</li>
-        <li>鐵三角</li>
-        <li>Sennheiser</li>
-        <li>UAG</li>
-        <li>犀牛盾</li>
-        <li>魚骨牌</li>
-        <li>惡魔殼</li>
-        <li>OtterBox</li>
-        <li>imos</li>
-        <li>大通</li>
-        <li>綠聯</li>
-        <li>Belkin</li>
-      </ul>
-      <ul>
-        相關分類
-        <li>智慧手機</li>
-        <li>POCO</li>
-        <li>OPPO</li>
-        <li>vivo</li>
-        <li>華為</li>
-        <li>平板</li>
-        <li>一般手機</li>
-        <li>福利品</li>
-        <li>藍芽耳機</li>
-        <li>智慧穿戴</li>
-        <li>手機平板配件</li>
-        <li>氮化鎵</li>
-        <li>APPLE周邊</li>
-        <li>安卓殼套</li>
-        <li>iPhone殼套</li>
-        <li>安卓保貼</li>
-        <li>Qi/行電</li>
-        <li>線材</li>
-        <li>充電/傳輸</li>
-        <li>旅遊卡</li>
-        <li>支架</li>
-        <li>備份</li>
-      </ul>
+    <div class="dropdown">
+      <button class="dropBtn">通訊</button>
+      <div class="dropdown-content">
+        <span>品牌旗艦</span>
+        <ul>
+          <li><a href="#">APPLE</a></li>
+          <li><a href="#">三星旗艦</a></li>
+          <li><a href="#">Android</a></li>
+          <li><a href="#">Google</a></li>
+          <li><a href="#">小米</a></li>
+          <li><a href="#">realme</a></li>
+          <li><a href="#">Jabra</a></li>
+          <li><a href="#">鐵三角</a></li>
+          <li><a href="#">Sennheiser</a></li>
+          <li><a href="#">UAG</a></li>
+          <li><a href="#">犀牛盾</a></li>
+          <li><a href="#">魚骨牌</a></li>
+          <li><a href="#">惡魔殼</a></li>
+          <li><a href="#">OtterBox</a></li>
+          <li><a href="#">imos</a></li>
+          <li><a href="#">大通</a></li>
+          <li><a href="#">綠聯</a></li>
+          <li><a href="#">Belkin</a></li>
+        </ul>
+        <span>相關分類</span>
+        <ul>
+          <li><a href="#">智慧手機</a></li>
+          <li><a href="#">POCO</a></li>
+          <li><a href="#">OPPO</a></li>
+          <li><a href="#">vivo</a></li>
+          <li><a href="#">華為</a></li>
+          <li><a href="#">平板</a></li>
+          <li><a href="#">一般手機</a></li>
+          <li><a href="#">福利品</a></li>
+          <li><a href="#">藍芽耳機</a></li>
+          <li><a href="#">智慧穿戴</a></li>
+          <li><a href="#">手機平板配件</a></li>
+          <li><a href="#">氮化鎵</a></li>
+          <li><a href="#">APPLE周邊</a></li>
+          <li><a href="#">安卓殼套</a></li>
+          <li><a href="#">iPhone殼套</a></li>
+          <li><a href="#">安卓保貼</a></li>
+          <li><a href="#">Qi/行電</a></li>
+          <li><a href="#">線材</a></li>
+          <li><a href="#">充電/傳輸</a></li>
+          <li><a href="#">旅遊卡</a></li>
+          <li><a href="#">支架</a></li>
+          <li><a href="#">備份</a></li>
+        </ul>
+        <span>所有通訊</span>
+      </div>
     </div>
-    <div>
-      <span>數位</span>
-      <ul>
-        品牌旗艦
-        <li>Bose旗艦館</li>
-        <li>Nitendo</li>
-        <li>PlayStation</li>
-        <li>Xbox</li>
-        <li>GoPrp</li>
-        <li>DJI旗艦館</li>
-        <li>SONY</li>
-        <li>Nikon旗艦館</li>
-        <li>CANON</li>
-        <li>Jabra</li>
-        <li>鐵三角</li>
-        <li>森海塞爾耳機</li>
-      </ul>
-      <ul>
-        <li>電玩/遊戲</li>
-        <li>遊戲配件/周邊</li>
-        <li>藍芽耳機</li>
-        <li>智慧穿戴</li>
-        <li>運動/攝影機</li>
-        <li>空拍機</li>
-        <li>數位相機</li>
-        <li>相機鏡頭</li>
-        <li>微單眼</li>
-        <li>單眼相機</li>
-        <li>鏡頭濾鏡</li>
-        <li>防潮箱</li>
-        <li>攝錄影器材</li>
-        <li>相機專業配件</li>
-        <li>攝影腳架</li>
-        <li>攝影包</li>
-        <li>錄音/音訊周邊</li>
-        <li>相機電池</li>
-        <li>閱讀器</li>
-      </ul>
+    <div class="dropdown">
+      <button class="dropBtn">數位</button>
+      <div class="dropdown-content">
+        <span>品牌旗艦</span>
+        <ul>
+          <li><a href="#">Bose旗艦館</a></li>
+          <li><a href="#">Nitendo</a></li>
+          <li><a href="#">PlayStation</a></li>
+          <li><a href="#">Xbox</a></li>
+          <li><a href="#">GoPrp</a></li>
+          <li><a href="#">DJI旗艦館</a></li>
+          <li><a href="#">SONY</a></li>
+          <li><a href="#">Nikon旗艦館</a></li>
+          <li><a href="#">CANON</a></li>
+          <li><a href="#">Jabra</a></li>
+          <li><a href="#">鐵三角</a></li>
+          <li><a href="#">森海塞爾耳機</a></li>
+        </ul>
+        <span>相關分類</span>
+        <ul>
+          <li><a href="#">電玩/遊戲</a></li>
+          <li><a href="#">遊戲配件/周邊</a></li>
+          <li><a href="#">藍芽耳機</a></li>
+          <li><a href="#">智慧穿戴</a></li>
+          <li><a href="#">運動/攝影機</a></li>
+          <li><a href="#">空拍機</a></li>
+          <li><a href="#">數位相機</a></li>
+          <li><a href="#">相機鏡頭</a></li>
+          <li><a href="#">微單眼</a></li>
+          <li><a href="#">單眼相機</a></li>
+          <li><a href="#">鏡頭濾鏡</a></li>
+          <li><a href="#">防潮箱</a></li>
+          <li><a href="#">攝錄影器材</a></li>
+          <li><a href="#">相機專業配件</a></li>
+          <li><a href="#">攝影腳架</a></li>
+          <li><a href="#">攝影包</a></li>
+          <li><a href="#">錄音/音訊周邊</a></li>
+          <li><a href="#">相機電池</a></li>
+          <li><a href="#">閱讀器</a></li>
+        </ul>
+        <span>所有數位</span>
+      </div>
     </div>
-    <div>
-      <span>家電</span>
-      <ul>
-        品牌旗艦
-        <li>母親節嚴選</li>
-        <li>dyson</li>
-        <li>dysonhair</li>
-        <li>三星旗艦</li>
-        <li>石頭科技</li>
-        <li>LG</li>
-        <li>伊萊克斯</li>
-        <li>飛利浦</li>
-        <li>BOSE旗艦</li>
-        <li>Bosch</li>
-        <li>FUJI</li>
-        <li>輝葉</li>
-        <li>Nespresso</li>
-        <li>雀巢</li>
-        <li>小米</li>
-      </ul>
-      <ul>
-        相關分類
-        <li>冷暖空調</li>
-        <li>液晶螢幕</li>
-        <li>洗/乾衣機</li>
-        <li>冰箱</li>
-        <li>電風扇</li>
-        <li>除濕機</li>
-        <li>清淨機</li>
-        <li>投影機</li>
-        <li>影音/劇院</li>
-        <li>吸塵器</li>
-        <li>掃地機</li>
-        <li>美容美髮</li>
-        <li>按摩家電</li>
-        <li>食物調理</li>
-        <li>料理電器</li>
-        <li>電子鍋/電鍋</li>
-        <li>烤箱/微波爐</li>
-        <li>洗/烘碗機</li>
-        <li>潔牙/健康</li>
-        <li>電鬍刀</li>
-        <li>咖啡機</li>
-        <li>生活家電</li>
-        <li>冷熱飲水</li>
-        <li>音響</li>
-        <li>除衛三機</li>
-        <li>電暖器</li>
-        <li>通訊/辦公</li>
-        <li>南紡家電</li>
-      </ul>
+    <div class="dropdown">
+      <button class="dropBtn">家電</button>
+      <div class="dropdown-content">
+        <span>品牌旗艦</span>
+        <ul>
+          <li><a href="#">母親節嚴選</a></li>
+          <li><a href="#">dyson</a></li>
+          <li><a href="#">dysonhair</a></li>
+          <li><a href="#">三星旗艦</a></li>
+          <li><a href="#">石頭科技</a></li>
+          <li><a href="#">LG</a></li>
+          <li><a href="#">伊萊克斯</a></li>
+          <li><a href="#">飛利浦</a></li>
+          <li><a href="#">BOSE旗艦</a></li>
+          <li><a href="#">Bosch</a></li>
+          <li><a href="#">FUJI</a></li>
+          <li><a href="#">輝葉</a></li>
+          <li><a href="#">Nespresso</a></li>
+          <li><a href="#">雀巢</a></li>
+          <li><a href="#">小米</a></li>
+        </ul>
+        <span>相關分類</span>
+        <ul>
+          <li><a href="#">冷暖空調</a></li>
+          <li><a href="#">液晶螢幕</a></li>
+          <li><a href="#">洗/乾衣機</a></li>
+          <li><a href="#">冰箱</a></li>
+          <li><a href="#">電風扇</a></li>
+          <li><a href="#">除濕機</a></li>
+          <li><a href="#">清淨機</a></li>
+          <li><a href="#">投影機</a></li>
+          <li><a href="#">影音/劇院</a></li>
+          <li><a href="#">吸塵器</a></li>
+          <li><a href="#">掃地機</a></li>
+          <li><a href="#">美容美髮</a></li>
+          <li><a href="#">按摩家電</a></li>
+          <li><a href="#">食物調理</a></li>
+          <li><a href="#">料理電器</a></li>
+          <li><a href="#">電子鍋/電鍋</a></li>
+          <li><a href="#">烤箱/微波爐</a></li>
+          <li><a href="#">洗/烘碗機</a></li>
+          <li><a href="#">潔牙/健康</a></li>
+          <li><a href="#">電鬍刀</a></li>
+          <li><a href="#">咖啡機</a></li>
+          <li><a href="#">生活家電</a></li>
+          <li><a href="#">冷熱飲水</a></li>
+          <li><a href="#">音響</a></li>
+          <li><a href="#">除衛三機</a></li>
+          <li><a href="#">電暖器</a></li>
+          <li><a href="#">通訊/辦公</a></li>
+          <li><a href="#">南紡家電</a></li>
+        </ul>
+        <span>所有家電</span>
+      </div>
     </div>
-    <div>
-      <span>日用</span>
-      <ul>
-        品牌旗艦
-        <li>舒潔</li>
-        <li>幫寶適</li>
-        <li>滿意寶寶</li>
-        <li>白蘭/熊寶貝</li>
-        <li>多芬/麗仕</li>
-        <li>五月花</li>
-        <li>倍潔雅</li>
-        <li>春風</li>
-        <li>花仙子</li>
-      </ul>
-      <ul>
-        相關分類
-        <li>衛生紙</li>
-        <li>嬰童紙尿褲</li>
-        <li>衛生棉</li>
-        <li>洗衣精</li>
-        <li>家用清潔</li>
-        <li>洗髮精</li>
-        <li>牙膏牙刷漱口水</li>
-        <li>沐浴乳/洗手乳</li>
-        <li>臉部清潔</li>
-        <li>掃除用品</li>
-        <li>除濕除蟲</li>
-        <li>濕紙巾</li>
-        <li>成人紙尿褲</li>
-        <li>防護抗菌</li>
-        <li>天然有機</li>
-        <li>進口洗沐</li>
-        <li>箱購日用品</li>
-        <li>商店街</li>
-        <li>3M科技生活館</li>
-        <li>泰國購物</li>
-        <li>南紡生活</li>
-      </ul>
+    <div class="dropdown">
+      <button class="dropBtn">日用</button>
+      <div class="dropdown-content">
+        <span>品牌旗艦</span>
+        <ul>
+          <li><a href="#">舒潔</a></li>
+          <li><a href="#">幫寶適</a></li>
+          <li><a href="#">滿意寶寶</a></li>
+          <li><a href="#">白蘭/熊寶貝</a></li>
+          <li><a href="#">多芬/麗仕</a></li>
+          <li><a href="#">五月花</a></li>
+          <li><a href="#">倍潔雅</a></li>
+          <li><a href="#">春風</a></li>
+          <li><a href="#">花仙子</a></li>
+        </ul>
+        <span>相關分類</span>
+        <ul>
+          <li><a href="#">衛生紙</a></li>
+          <li><a href="#">嬰童紙尿褲</a></li>
+          <li><a href="#">衛生棉</a></li>
+          <li><a href="#">洗衣精</a></li>
+          <li><a href="#">家用清潔</a></li>
+          <li><a href="#">洗髮精</a></li>
+          <li><a href="#">牙膏牙刷漱口水</a></li>
+          <li><a href="#">沐浴乳/洗手乳</a></li>
+          <li><a href="#">臉部清潔</a></li>
+          <li><a href="#">掃除用品</a></li>
+          <li><a href="#">除濕除蟲</a></li>
+          <li><a href="#">濕紙巾</a></li>
+          <li><a href="#">成人紙尿褲</a></li>
+          <li><a href="#">防護抗菌</a></li>
+          <li><a href="#">天然有機</a></li>
+          <li><a href="#">進口洗沐</a></li>
+          <li><a href="#">箱購日用品</a></li>
+          <li><a href="#">商店街</a></li>
+          <li><a href="#">3M科技生活館</a></li>
+          <li><a href="#">泰國購物</a></li>
+          <li><a href="#">南紡生活</a></li>
+        </ul>
+        <span>所有日用</span>
+      </div>
     </div>
-    <div>
-      <span>母嬰</span>
-      <ul>
-        品牌旗艦
-        <li>樂高®</li>
-        <li>Combi</li>
-        <li>LAVIDA</li>
-      </ul>
-      <ul>
-        相關分類
-        <li>婦幼</li>
-        <li>嬰童</li>
-        <li>推車汽座</li>
-        <li>洗沐保養</li>
-        <li>孕哺</li>
-        <li>童裝</li>
-        <li>玩具</li>
-        <li>積木</li>
-        <li>嬰童紙尿褲</li>
-        <li>濕紙巾</li>
-        <li>婦幼保健</li>
-        <li>滴雞精</li>
-        <li>奶粉</li>
-        <li>婦幼保養</li>
-        <li>桌遊</li>
-        <li>模型公仔</li>
-        <li>卡通館</li>
-        <li>兒童家具</li>
-      </ul>
+    <div class="dropdown">
+      <button class="dropBtn">母嬰</button>
+      <div class="dropdown-content">
+        <span>品牌旗艦</span>
+        <ul>
+          <li><a href="#">樂高®</a></li>
+          <li><a href="#">Combi</a></li>
+          <li><a href="#">LAVIDA</a></li>
+        </ul>
+        <span>相關分類</span>
+        <ul>
+          <li><a href="#">婦幼</a></li>
+          <li><a href="#">嬰童</a></li>
+          <li><a href="#">推車汽座</a></li>
+          <li><a href="#">洗沐保養</a></li>
+          <li><a href="#">孕哺</a></li>
+          <li><a href="#">童裝</a></li>
+          <li><a href="#">玩具</a></li>
+          <li><a href="#">積木</a></li>
+          <li><a href="#">嬰童紙尿褲</a></li>
+          <li><a href="#">濕紙巾</a></li>
+          <li><a href="#">婦幼保健</a></li>
+          <li><a href="#">滴雞精</a></li>
+          <li><a href="#">奶粉</a></li>
+          <li><a href="#">婦幼保養</a></li>
+          <li><a href="#">桌遊</a></li>
+          <li><a href="#">模型公仔</a></li>
+          <li><a href="#">卡通館</a></li>
+          <li><a href="#">兒童家具</a></li>
+        </ul>
+        <span>所有母嬰</span>
+      </div>
     </div>
-    <div>
-      <span>食品</span>
-      <ul>
-        品牌旗艦
-        <li>雀巢</li>
-        <li>萬歲牌</li>
-        <li>盛香珍</li>
-        <li>M&M巧克力</li>
-        <li>乖乖</li>
-        <li>OREO</li>
-        <li>黑貓</li>
-        <li>鄰家鮮生</li>
-      </ul>
-      <ul>
-        相關分類
-        <li>PChome生鮮</li>
-        <li>冷凍</li>
-        <li>熟食</li>
-        <li>蔬果甜點</li>
-        <li>海鮮肉品</li>
-        <li>團購</li>
-        <li>票券</li>
-        <li>PChome進口</li>
-        <li>進口食品</li>
-        <li>進口零食</li>
-        <li>進口沖調</li>
-        <li>進口食材</li>
-        <li>飲料</li>
-        <li>礦泉水</li>
-        <li>零食</li>
-        <li>堅果</li>
-        <li>沖泡</li>
-        <li>咖啡</li>
-        <li>茶葉</li>
-        <li>奶粉</li>
-        <li>麥片</li>
-        <li>生機</li>
-        <li>米/食材</li>
-        <li>泡麵</li>
-        <li>油品</li>
-        <li>罐頭</li>
-        <li>箱購專區</li>
-        <li>家好選物</li>
-        <li>有賣商行</li>
-        <li>立陶宛</li>
-        <li>南紡食品</li>
-        <li>泰國購物</li>
-      </ul>
+    <div class="dropdown">
+      <button class="dropBtn">食品</button>
+      <div class="dropdown-content">
+        <span>品牌旗艦</span>
+        <ul>
+          <li><a href="#">雀巢</a></li>
+          <li><a href="#">萬歲牌</a></li>
+          <li><a href="#">盛香珍</a></li>
+          <li><a href="#">M&M巧克力</a></li>
+          <li><a href="#">乖乖</a></li>
+          <li><a href="#">OREO</a></li>
+          <li><a href="#">黑貓</a></li>
+          <li><a href="#">鄰家鮮生</a></li>
+        </ul>
+        <span>相關分類</span>
+        <ul>
+          <li><a href="#">PChome生鮮</a></li>
+          <li><a href="#">冷凍</a></li>
+          <li><a href="#">熟食</a></li>
+          <li><a href="#">蔬果甜點</a></li>
+          <li><a href="#">海鮮肉品</a></li>
+          <li><a href="#">團購</a></li>
+          <li><a href="#">票券</a></li>
+          <li><a href="#">PChome進口</a></li>
+          <li><a href="#">進口食品</a></li>
+          <li><a href="#">進口零食</a></li>
+          <li><a href="#">進口沖調</a></li>
+          <li><a href="#">進口食材</a></li>
+          <li><a href="#">飲料</a></li>
+          <li><a href="#">礦泉水</a></li>
+          <li><a href="#">零食</a></li>
+          <li><a href="#">堅果</a></li>
+          <li><a href="#">沖泡</a></li>
+          <li><a href="#">咖啡</a></li>
+          <li><a href="#">茶葉</a></li>
+          <li><a href="#">奶粉</a></li>
+          <li><a href="#">麥片</a></li>
+          <li><a href="#">生機</a></li>
+          <li><a href="#">米/食材</a></li>
+          <li><a href="#">泡麵</a></li>
+          <li><a href="#">油品</a></li>
+          <li><a href="#">罐頭</a></li>
+          <li><a href="#">箱購專區</a></li>
+          <li><a href="#">家好選物</a></li>
+          <li><a href="#">有賣商行</a></li>
+          <li><a href="#">立陶宛</a></li>
+          <li><a href="#">南紡食品</a></li>
+          <li><a href="#">泰國購物</a></li>
+        </ul>
+        <span>所有食品</span>
+      </div>
     </div>
-    <div>
-      <span>生活</span>
-      <ul>
-        品牌旗艦
-        <li>MUJI無印良品</li>
-        <li>樂高®</li>
-        <li>BRITA</li>
-        <li>康寧</li>
-        <li>膳魔師</li>
-        <li>樂扣樂扣</li>
-        <li>Combi</li>
-        <li>WMF</li>
-      </ul>
-      <ul>
-        相關分類
-        <li>鍋具</li>
-        <li>餐廚</li>
-        <li>烘焙用品</li>
-        <li>餐具/保鮮盒</li>
-        <li>隨行杯/保溫瓶</li>
-        <li>咖啡/茶具</li>
-        <li>婦幼</li>
-        <li>嬰童</li>
-        <li>推車/汽座</li>
-        <li>孕哺</li>
-        <li>童裝</li>
-        <li>寢具/枕頭</li>
-        <li>名寢</li>
-        <li>床包</li>
-        <li>床墊</li>
-        <li>家飾</li>
-        <li>玩具</li>
-        <li>積木</li>
-        <li>桌遊</li>
-        <li>模型公仔</li>
-        <li>衛浴用品</li>
-        <li>衛浴設備</li>
-        <li>卡通館</li>
-        <li>有賣商行</li>
-        <li>民視美鳳有約</li>
-        <li>儲值</li>
-        <li>綠色商品</li>
-        <li>票券</li>
-      </ul>
+    <div class="dropdown">
+      <button class="dropBtn">生活</button>
+      <div class="dropdown-content">
+        <span>品牌旗艦</span>
+        <ul>
+          <li><a href="#">MUJI無印良品</a></li>
+          <li><a href="#">樂高®</a></li>
+          <li><a href="#">BRITA</a></li>
+          <li><a href="#">康寧</a></li>
+          <li><a href="#">膳魔師</a></li>
+          <li><a href="#">樂扣樂扣</a></li>
+          <li><a href="#">Combi</a></li>
+          <li><a href="#">WMF</a></li>
+        </ul>
+        <span>相關分類</span>
+        <ul>
+          <li><a href="#">鍋具</a></li>
+          <li><a href="#">餐廚</a></li>
+          <li><a href="#">烘焙用品</a></li>
+          <li><a href="#">餐具/保鮮盒</a></li>
+          <li><a href="#">隨行杯/保溫瓶</a></li>
+          <li><a href="#">咖啡/茶具</a></li>
+          <li><a href="#">婦幼</a></li>
+          <li><a href="#">嬰童</a></li>
+          <li><a href="#">推車/汽座</a></li>
+          <li><a href="#">孕哺</a></li>
+          <li><a href="#">童裝</a></li>
+          <li><a href="#">寢具/枕頭</a></li>
+          <li><a href="#">名寢</a></li>
+          <li><a href="#">床包</a></li>
+          <li><a href="#">床墊</a></li>
+          <li><a href="#">家飾</a></li>
+          <li><a href="#">玩具</a></li>
+          <li><a href="#">積木</a></li>
+          <li><a href="#">桌遊</a></li>
+          <li><a href="#">模型公仔</a></li>
+          <li><a href="#">衛浴用品</a></li>
+          <li><a href="#">衛浴設備</a></li>
+          <li><a href="#">卡通館</a></li>
+          <li><a href="#">有賣商行</a></li>
+          <li><a href="#">民視美鳳有約</a></li>
+          <li><a href="#">儲值</a></li>
+          <li><a href="#">綠色商品</a></li>
+          <li><a href="#">票券</a></li>
+        </ul>
+        <span>所有生活</span>
+      </div>
     </div>
-    <div>
-      <span>居家</span>
-      <ul>
-        品牌旗艦
-        <li>BOSCH</li>
-        <li>得利塗料</li>
-        <li>H&D東稻家居</li>
-        <li>ho!!好好生活</li>
-        <li>IRIS</li>
-        <li>OKAMURA</li>
-        <li>3M生活</li>
-        <li>未來實驗室</li>
-        <li>飛利浦照明</li>
-        <li>舞光照明</li>
-        <li>生活工場</li>
-      </ul>
-      <ul>
-        相關分類
-        <li>電動工具</li>
-        <li>修繕五金</li>
-        <li>塗料地板</li>
-        <li>電子鎖</li>
-        <li>居家安全設備</li>
-        <li>電腦椅</li>
-        <li>層架</li>
-        <li>收納用品</li>
-        <li>品牌家具</li>
-        <li>沙發/沙發床</li>
-        <li>椅子/椅凳</li>
-        <li>桌子/茶几</li>
-        <li>床</li>
-        <li>櫃子</li>
-        <li>衣架/曬衣架</li>
-        <li>兒童家具</li>
-        <li>文具用品</li>
-        <li>辦公用品</li>
-        <li>園藝植栽</li>
-        <li>燈管燈泡</li>
-        <li>燈飾</li>
-        <li>開運</li>
-        <li>企業批發採購</li>
-      </ul>
+    <div class="dropdown">
+      <button class="dropBtn">居家</button>
+      <div class="dropdown-content">
+        <span>品牌旗艦</span>
+        <ul>
+          <li><a href="#">BOSCH</a></li>
+          <li><a href="#">得利塗料</a></li>
+          <li><a href="#">H&D東稻家居</a></li>
+          <li><a href="#">ho!!好好生活</a></li>
+          <li><a href="#">IRIS</a></li>
+          <li><a href="#">OKAMURA</a></li>
+          <li><a href="#">3M生活</a></li>
+          <li><a href="#">未來實驗室</a></li>
+          <li><a href="#">飛利浦照明</a></li>
+          <li><a href="#">舞光照明</a></li>
+          <li><a href="#">生活工場</a></li>
+        </ul>
+        <span>相關分類</span>
+        <ul>
+          <li><a href="#">電動工具</a></li>
+          <li><a href="#">修繕五金</a></li>
+          <li><a href="#">塗料地板</a></li>
+          <li><a href="#">電子鎖</a></li>
+          <li><a href="#">居家安全設備</a></li>
+          <li><a href="#">電腦椅</a></li>
+          <li><a href="#">層架</a></li>
+          <li><a href="#">收納用品</a></li>
+          <li><a href="#">品牌家具</a></li>
+          <li><a href="#">沙發/沙發床</a></li>
+          <li><a href="#">椅子/椅凳</a></li>
+          <li><a href="#">桌子/茶几</a></li>
+          <li><a href="#">床</a></li>
+          <li><a href="#">櫃子</a></li>
+          <li><a href="#">衣架/曬衣架</a></li>
+          <li><a href="#">兒童家具</a></li>
+          <li><a href="#">文具用品</a></li>
+          <li><a href="#">辦公用品</a></li>
+          <li><a href="#">園藝植栽</a></li>
+          <li><a href="#">燈管燈泡</a></li>
+          <li><a href="#">燈飾</a></li>
+          <li><a href="#">開運</a></li>
+          <li><a href="#">企業批發採購</a></li>
+        </ul>
+        <span>所有居家</span>
+      </div>
     </div>
-    <div>
-      <span>休閒</span>
-      <ul>
-        品牌旗艦
-        <li>GARMIN</li>
-        <li>TheNorthFace</li>
-        <li>Mizuno</li>
-        <li>NewBalance</li>
-        <li>PUMA</li>
-        <li>Asics</li>
-        <li>米其林</li>
-        <li>米其林精品</li>
-        <li>車麗屋</li>
-        <li>SportCity</li>
-        <li>ABCMart</li>
-        <li>SHIMANO</li>
-        <li>Columbia</li>
-        <li>歐都納</li>
-        <li>毛孩嚴選</li>
-      </ul>
-      <ul>
-        相關分類
-        <li>露營</li>
-        <li>登山</li>
-        <li>機車</li>
-        <li>機百</li>
-        <li>汽百</li>
-        <li>雨具</li>
-        <li>健身</li>
-        <li>單車</li>
-        <li>運動服</li>
-        <li>運動鞋</li>
-        <li>智慧錶</li>
-        <li>軍品</li>
-        <li>貓食</li>
-        <li>狗食</li>
-        <li>貓砂/用品</li>
-        <li>小動物</li>
-        <li>機能服</li>
-        <li>機能鞋</li>
-        <li>球/護具</li>
-        <li>按摩槍</li>
-        <li>記錄器</li>
-        <li>車電</li>
-        <li>保險套</li>
-        <li>情趣用品(女)</li>
-        <li>情趣用品(男)</li>
-        <li>情趣職人</li>
-        <li>有責商行</li>
-        <li>Gogoro</li>
-        <li>NEWERA</li>
-        <li>勝利體育</li>
-        <li>ASHGOLF</li>
-        <li>南紡運動</li>
-        <li>休閒/泳具</li>
-        <li>輪胎</li>
-        <li>瑜珈</li>
-        <li>GoPrp</li>
-      </ul>
+    <div class="dropdown">
+      <button class="dropBtn">休閒</button>
+      <div class="dropdown-content">
+        <span>品牌旗艦</span>
+        <ul>
+          <li><a href="#">GARMIN</a></li>
+          <li><a href="#">TheNorthFace</a></li>
+          <li><a href="#">Mizuno</a></li>
+          <li><a href="#">NewBalance</a></li>
+          <li><a href="#">PUMA</a></li>
+          <li><a href="#">Asics</a></li>
+          <li><a href="#">米其林</a></li>
+          <li><a href="#">米其林精品</a></li>
+          <li><a href="#">車麗屋</a></li>
+          <li><a href="#">SportCity</a></li>
+          <li><a href="#">ABCMart</a></li>
+          <li><a href="#">SHIMANO</a></li>
+          <li><a href="#">Columbia</a></li>
+          <li><a href="#">歐都納</a></li>
+          <li><a href="#">毛孩嚴選</a></li>
+        </ul>
+        <span>相關分類</span>
+        <ul>
+          <li><a href="#">露營</a></li>
+          <li><a href="#">登山</a></li>
+          <li><a href="#">機車</a></li>
+          <li><a href="#">機百</a></li>
+          <li><a href="#">汽百</a></li>
+          <li><a href="#">雨具</a></li>
+          <li><a href="#">健身</a></li>
+          <li><a href="#">單車</a></li>
+          <li><a href="#">運動服</a></li>
+          <li><a href="#">運動鞋</a></li>
+          <li><a href="#">智慧錶</a></li>
+          <li><a href="#">軍品</a></li>
+          <li><a href="#">貓食</a></li>
+          <li><a href="#">狗食</a></li>
+          <li><a href="#">貓砂/用品</a></li>
+          <li><a href="#">小動物</a></li>
+          <li><a href="#">機能服</a></li>
+          <li><a href="#">機能鞋</a></li>
+          <li><a href="#">球/護具</a></li>
+          <li><a href="#">按摩槍</a></li>
+          <li><a href="#">記錄器</a></li>
+          <li><a href="#">車電</a></li>
+          <li><a href="#">保險套</a></li>
+          <li><a href="#">情趣用品(女)</a></li>
+          <li><a href="#">情趣用品(男)</a></li>
+          <li><a href="#">情趣職人</a></li>
+          <li><a href="#">有責商行</a></li>
+          <li><a href="#">Gogoro</a></li>
+          <li><a href="#">NEWERA</a></li>
+          <li><a href="#">勝利體育</a></li>
+          <li><a href="#">ASHGOLF</a></li>
+          <li><a href="#">南紡運動</a></li>
+          <li><a href="#">休閒/泳具</a></li>
+          <li><a href="#">輪胎</a></li>
+          <li><a href="#">瑜珈</a></li>
+          <li><a href="#">GoPrp</a></li>
+        </ul>
+        <span>所有休閒</span>
+      </div>
     </div>
-    <div>
-      <span>保健</span>
-      <ul>
-        品牌旗艦
-        <li>世界健康日</li>
-        <li>亞培</li>
-        <li>桂格</li>
-        <li>大研生醫</li>
-        <li>白蘭氏</li>
-        <li>娘家</li>
-        <li>善存挺立克補</li>
-        <li>三得利</li>
-        <li>美國ON</li>
-        <li>補體素</li>
-        <li>益富</li>
-        <li>船井生醫</li>
-        <li>葡萄王</li>
-        <li>三多</li>
-        <li>達摩本草</li>
-        <li>利捷維</li>
-        <li>永信</li>
-        <li>悠活原力</li>
-        <li>日落恩賜</li>
-        <li>LAC</li>
-        <li>DHC</li>
-        <li>PChome保健</li>
-      </ul>
-      <ul>
-        相關分類
-        <li>維他命</li>
-        <li>益生菌</li>
-        <li>滴雞精</li>
-        <li>機能保健</li>
-        <li>窈窕保健</li>
-        <li>男性保健</li>
-        <li>美顏保健</li>
-        <li>婦幼保健</li>
-        <li>運動保健</li>
-        <li>營養品</li>
-        <li>醫療用品/器材</li>
-        <li>醫療口罩</li>
-        <li>銀髮族</li>
-      </ul>
+    <div class="dropdown">
+      <button class="dropBtn">保健</button>
+      <div class="dropdown-content">
+        <span>品牌旗艦</span>
+        <ul>
+          <li><a href="#">世界健康日</a></li>
+          <li><a href="#">亞培</a></li>
+          <li><a href="#">桂格</a></li>
+          <li><a href="#">大研生醫</a></li>
+          <li><a href="#">白蘭氏</a></li>
+          <li><a href="#">娘家</a></li>
+          <li><a href="#">善存挺立克補</a></li>
+          <li><a href="#">三得利</a></li>
+          <li><a href="#">美國ON</a></li>
+          <li><a href="#">補體素</a></li>
+          <li><a href="#">益富</a></li>
+          <li><a href="#">船井生醫</a></li>
+          <li><a href="#">葡萄王</a></li>
+          <li><a href="#">三多</a></li>
+          <li><a href="#">達摩本草</a></li>
+          <li><a href="#">利捷維</a></li>
+          <li><a href="#">永信</a></li>
+          <li><a href="#">悠活原力</a></li>
+          <li><a href="#">日落恩賜</a></li>
+          <li><a href="#">LAC</a></li>
+          <li><a href="#">DHC</a></li>
+          <li><a href="#">PChome保健</a></li>
+        </ul>
+        <span>相關分類</span>
+        <ul>
+          <li><a href="#">維他命</a></li>
+          <li><a href="#">益生菌</a></li>
+          <li><a href="#">滴雞精</a></li>
+          <li><a href="#">機能保健</a></li>
+          <li><a href="#">窈窕保健</a></li>
+          <li><a href="#">男性保健</a></li>
+          <li><a href="#">美顏保健</a></li>
+          <li><a href="#">婦幼保健</a></li>
+          <li><a href="#">運動保健</a></li>
+          <li><a href="#">營養品</a></li>
+          <li><a href="#">醫療用品/器材</a></li>
+          <li><a href="#">醫療口罩</a></li>
+          <li><a href="#">銀髮族</a></li>
+        </ul>
+        <span>所有保健</span>
+      </div>
     </div>
-    <div>
-      <span>美妝</span>
-      <ul>
-        品牌旗艦
-        <li>碧兒泉</li>
-        <li>蘭芝</li>
-        <li>寶拉珍選</li>
-        <li>佳麗寶集團</li>
-        <li>理膚寶水</li>
-        <li>歐舒丹</li>
-        <li>巴黎萊雅媚比琳</li>
-        <li>施巴</li>
-        <li>提提研</li>
-        <li>妮維雅</li>
-        <li>雅漾</li>
-        <li>幕之恬廊</li>
-        <li>DHC</li>
-        <li>AHC</li>
-        <li>KOSE</li>
-        <li>CeraVe</li>
-        <li>薇姿</li>
-      </ul>
-      <ul>
-        相關分類
-        <li>專櫃保養</li>
-        <li>專櫃彩妝</li>
-        <li>醫美保養</li>
-        <li>開架保養</li>
-        <li>韓系品牌</li>
-        <li>日系美妝</li>
-        <li>彩妝美甲</li>
-        <li>沙龍髮品</li>
-        <li>染髮造型</li>
-        <li>香水</li>
-        <li>手工香氛皂</li>
-        <li>香氛美體</li>
-        <li>精油擴香</li>
-        <li>婦幼專區</li>
-        <li>私密保養</li>
-        <li>草本品牌</li>
-        <li>男士保養</li>
-        <li>美容工具</li>
-        <li>天然系專家</li>
-        <li>蔻蘿蘭</li>
-        <li>南紡美妝</li>
-        <li>艾夫美</li>
-      </ul>
+    <div class="dropdown">
+      <button class="dropBtn">美妝</button>
+      <div class="dropdown-content">
+        <span>品牌旗艦</span>
+        <ul>
+          <li><a href="#">碧兒泉</a></li>
+          <li><a href="#">蘭芝</a></li>
+          <li><a href="#">寶拉珍選</a></li>
+          <li><a href="#">佳麗寶集團</a></li>
+          <li><a href="#">理膚寶水</a></li>
+          <li><a href="#">歐舒丹</a></li>
+          <li><a href="#">巴黎萊雅媚比琳</a></li>
+          <li><a href="#">施巴</a></li>
+          <li><a href="#">提提研</a></li>
+          <li><a href="#">妮維雅</a></li>
+          <li><a href="#">雅漾</a></li>
+          <li><a href="#">幕之恬廊</a></li>
+          <li><a href="#">DHC</a></li>
+          <li><a href="#">AHC</a></li>
+          <li><a href="#">KOSE</a></li>
+          <li><a href="#">CeraVe</a></li>
+          <li><a href="#">薇姿</a></li>
+        </ul>
+        <span>相關分類</span>
+        <ul>
+          <li><a href="#">專櫃保養</a></li>
+          <li><a href="#">專櫃彩妝</a></li>
+          <li><a href="#">醫美保養</a></li>
+          <li><a href="#">開架保養</a></li>
+          <li><a href="#">韓系品牌</a></li>
+          <li><a href="#">日系美妝</a></li>
+          <li><a href="#">彩妝美甲</a></li>
+          <li><a href="#">沙龍髮品</a></li>
+          <li><a href="#">染髮造型</a></li>
+          <li><a href="#">香水</a></li>
+          <li><a href="#">手工香氛皂</a></li>
+          <li><a href="#">香氛美體</a></li>
+          <li><a href="#">精油擴香</a></li>
+          <li><a href="#">婦幼專區</a></li>
+          <li><a href="#">私密保養</a></li>
+          <li><a href="#">草本品牌</a></li>
+          <li><a href="#">男士保養</a></li>
+          <li><a href="#">美容工具</a></li>
+          <li><a href="#">天然系專家</a></li>
+          <li><a href="#">蔻蘿蘭</a></li>
+          <li><a href="#">南紡美妝</a></li>
+          <li><a href="#">艾夫美</a></li>
+        </ul>
+        <span>所有美妝</span>
+      </div>
     </div>
-    <div>
-      <span>時尚</span>
-      <ul>
-        品牌旗艦
-        <li>Levis</li>
-        <li>G2000</li>
-        <li>PORTER</li>
-        <li>TUMI</li>
-        <li>CASIO</li>
-        <li>點晴品</li>
-        <li>Timberland</li>
-        <li>SKECHERS</li>
-        <li>LANEW</li>
-        <li>三花棉業</li>
-        <li>曼黛瑪璉</li>
-        <li>華歌爾</li>
-        <li>EASYSHOP</li>
-        <li>Aimerfeel</li>
-        <li>ROXY</li>
-        <li>MUJI無印良品</li>
-      </ul>
-      <ul>
-        相關分類
-        <li>精品包/配件</li>
-        <li>瑞士錶/精品錶</li>
-        <li>手錶</li>
-        <li>專櫃行李箱</li>
-        <li>行李箱</li>
-        <li>旅行用品</li>
-        <li>電腦包/商務包</li>
-        <li>男包/皮夾</li>
-        <li>女包/斜背包</li>
-        <li>黃金/金飾</li>
-        <li>鑽石</li>
-        <li>飾品/配件</li>
-        <li>眼鏡/墨鏡</li>
-        <li>機能服飾</li>
-        <li>休閒服飾</li>
-        <li>男裝/女裝/西裝</li>
-        <li>男鞋/女鞋</li>
-        <li>鞋材</li>
-        <li>男內著/褲/背心</li>
-        <li>襪子</li>
-        <li>內衣/內衣褲</li>
-        <li>睡衣</li>
-        <li>塑身/塑身衣褲</li>
-        <li>泳裝</li>
-        <li>情趣內衣</li>
-        <li>泰國購物</li>
-        <li>南紡時尚</li>
-        <li>MiTCH</li>
-      </ul>
+    <div class="dropdown">
+      <button class="dropBtn">時尚</button>
+      <div class="dropdown-content">
+        <span>品牌旗艦</span>
+        <ul>
+          <li><a href="#">Levis</a></li>
+          <li><a href="#">G2000</a></li>
+          <li><a href="#">PORTER</a></li>
+          <li><a href="#">TUMI</a></li>
+          <li><a href="#">CASIO</a></li>
+          <li><a href="#">點晴品</a></li>
+          <li><a href="#">Timberland</a></li>
+          <li><a href="#">SKECHERS</a></li>
+          <li><a href="#">LANEW</a></li>
+          <li><a href="#">三花棉業</a></li>
+          <li><a href="#">曼黛瑪璉</a></li>
+          <li><a href="#">華歌爾</a></li>
+          <li><a href="#">EASYSHOP</a></li>
+          <li><a href="#">Aimerfeel</a></li>
+          <li><a href="#">ROXY</a></li>
+          <li><a href="#">MUJI無印良品</a></li>
+        </ul>
+        <span>相關分類</span>
+        <ul>
+          <li><a href="#">精品包/配件</a></li>
+          <li><a href="#">瑞士錶/精品錶</a></li>
+          <li><a href="#">手錶</a></li>
+          <li><a href="#">專櫃行李箱</a></li>
+          <li><a href="#">行李箱</a></li>
+          <li><a href="#">旅行用品</a></li>
+          <li><a href="#">電腦包/商務包</a></li>
+          <li><a href="#">男包/皮夾</a></li>
+          <li><a href="#">女包/斜背包</a></li>
+          <li><a href="#">黃金/金飾</a></li>
+          <li><a href="#">鑽石</a></li>
+          <li><a href="#">飾品/配件</a></li>
+          <li><a href="#">眼鏡/墨鏡</a></li>
+          <li><a href="#">機能服飾</a></li>
+          <li><a href="#">休閒服飾</a></li>
+          <li><a href="#">男裝/女裝/西裝</a></li>
+          <li><a href="#">男鞋/女鞋</a></li>
+          <li><a href="#">鞋材</a></li>
+          <li><a href="#">男內著/褲/背心</a></li>
+          <li><a href="#">襪子</a></li>
+          <li><a href="#">內衣/內衣褲</a></li>
+          <li><a href="#">睡衣</a></li>
+          <li><a href="#">塑身/塑身衣褲</a></li>
+          <li><a href="#">泳裝</a></li>
+          <li><a href="#">情趣內衣</a></li>
+          <li><a href="#">泰國購物</a></li>
+          <li><a href="#">南紡時尚</a></li>
+          <li><a href="#">MiTCH</a></li>
+        </ul>
+        <span>所有時尚</span>
+      </div>
     </div>
-    <div><span>書店</span></div>
+    <button class="dropBtn">書店</button>
   </div>
 </template>
+<style scoped>
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropBtn {
+  background-color: #eb1716;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: medium;
+  font-family: 微軟正黑體, Arial, Helvetica, sans-serif;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+}
+.dropdown-content > span {
+  font-weight: bold;
+}
+
+.dropdown-content a {
+  display: block;
+  text-decoration: none;
+  color: black;
+}
+
+.dropdown-content > span ~ ul {
+  display: flex;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  display: flex;
+  align-items: stretch;
+}
+.dropdown:hover .dropBtn {
+  background-color: #fff;
+  color: #eb1716;
+}
+</style>
