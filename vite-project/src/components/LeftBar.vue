@@ -2,7 +2,8 @@
   <div class="leftbar">
     <div class="leftUp">
       <button class="btn">
-        <a href="#">
+        <a href="#"
+          ><img src="../assets/PIC/mother.jpg" alt="mothetsday" />
           <p class="btnTitle">全場32折起</p>
           <p class="btnDesc">連假好禮雙重抽</p>
         </a>
@@ -10,7 +11,8 @@
     </div>
     <div class="leftDown">
       <button class="btn">
-        <a href="">
+        <a href=""
+          ><img src="../assets/PIC/applewatch.jpg" alt="apple watch" />
           <p class="btnTitle">Apple Watch</p>
           <p class="btnDesc">指定款$119900up</p>
         </a>
@@ -26,22 +28,26 @@
   font-size: 14px;
   border: none;
   border-radius: 10px;
-  margin: 10px 20px;
+  margin: 10px 25px;
   box-shadow: 0 5px #dddddd;
 }
+img {
+  position: absolute;
+  width: 200px;
+  height: 210px;
+  border-radius: 10px;
+  left: 0;
+  top: 0;
+}
 
-.leftUp > .btn {
+/* .leftUp > .btn {
   background: url(../assets/PIC/mother.jpg);
   background-size: 100%;
 }
 .leftDown > .btn {
   background: url(../assets/PIC/applewatch.jpg);
   background-size: 100%;
-}
-
-.btnImg {
-  border-radius: 10px;
-}
+} */
 
 .btnTitle {
   position: absolute;
