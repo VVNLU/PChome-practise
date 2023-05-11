@@ -1,8 +1,8 @@
 <template>
-  <div class="drp">
-    <div class="dropdown">
-      <button class="dropBtn">3C</button>
-      <div class="dropdown-content">
+  <div class="drpdownNavbar">
+    <div class="dropdownItem">
+      <button class="dropdownBtn">3C</button>
+      <div class="dropdownItem-content">
         <span>品牌旗艦</span>
         <ul>
           <li><a href="#">SanDisk</a></li>
@@ -45,12 +45,18 @@
           <li><a href="#">南紡3C</a></li>
           <li><a href="#">露天</a></li>
         </ul>
-        <span>所有3C</span>
+        <span class="others"
+          ><a href="#">所有3C</a><i class="fa-solid fa-caret-right fa-xl"></i
+        ></span>
+      </div>
+      <div class="dropdownItem-photo">
+        <img src="../assets/PIC/menubar/3C/TV.jpg" alt="television" />
+        <img src="../assets/PIC/menubar/3C/tp-link.jpg" alt="tp-link" />
       </div>
     </div>
-    <div class="dropdown">
-      <button class="dropBtn">周邊</button>
-      <div class="dropdown-content">
+    <div class="dropdownItem">
+      <button class="dropdownBtn">周邊</button>
+      <div class="dropdownItem-content">
         <span>品牌旗艦</span>
         <ul>
           <li><a href="#">Logitech/羅技</a></li>
@@ -91,12 +97,24 @@
           <li><a href="#">電腦/商務包</a></li>
           <li><a href="#">嚴選小舖</a></li>
         </ul>
-        <span>所有周邊</span>
+        <span class="others"
+          ><a href="#">所有周邊</a><i class="fa-solid fa-caret-right fa-xl"></i
+        ></span>
+      </div>
+      <div class="dropdownItem-photo">
+        <img
+          src="../assets/PIC/menubar/merchandise/printer.jpg"
+          alt="printer"
+        />
+        <img
+          src="../assets/PIC/menubar/merchandise/OfficeSupplies.jpg"
+          alt="Office Supplies"
+        />
       </div>
     </div>
-    <div class="dropdown">
-      <button class="dropBtn">NB</button>
-      <div class="dropdown-content">
+    <div class="dropdownItem">
+      <button class="dropdownBtn">NB</button>
+      <div class="dropdownItem-content">
         <span>品牌旗艦</span>
         <ul>
           <li><a href="#">Intel第13&12代</a></li>
@@ -129,12 +147,18 @@
           <li><a href="#">MSI微星</a></li>
           <li><a href="#">Mac周邊</a></li>
         </ul>
-        <span>所有NB</span>
+        <span class="others"
+          ><a href="#">所有NB</a><i class="fa-solid fa-caret-right fa-xl"></i
+        ></span>
+      </div>
+      <div class="dropdownItem-photo">
+        <img src="../assets/PIC/menubar/NB/MSI.jpg" alt="MSI" />
+        <img src="../assets/PIC/menubar/NB/Lenovo.jpg" alt="Lenovo" />
       </div>
     </div>
-    <div class="dropdown">
-      <button class="dropBtn">通訊</button>
-      <div class="dropdown-content">
+    <div class="dropdownItem">
+      <button class="dropdownBtn">通訊</button>
+      <div class="dropdownItem-content">
         <span>品牌旗艦</span>
         <ul>
           <li><a href="#">APPLE</a></li>
@@ -181,12 +205,24 @@
           <li><a href="#">支架</a></li>
           <li><a href="#">備份</a></li>
         </ul>
-        <span>所有通訊</span>
+        <span class="others"
+          ><a href="#">所有通訊</a><i class="fa-solid fa-caret-right fa-xl"></i
+        ></span>
+      </div>
+      <div class="dropdownItem-photo">
+        <img
+          src="../assets/PIC/menubar/communication/iPhone14.jpg"
+          alt="iPhone14"
+        />
+        <img
+          src="../assets/PIC/menubar/communication/SAMSUMG.jpg"
+          alt="SAMSUNG"
+        />
       </div>
     </div>
-    <div class="dropdown">
-      <button class="dropBtn">數位</button>
-      <div class="dropdown-content">
+    <div class="dropdownItem">
+      <button class="dropdownBtn">數位</button>
+      <div class="dropdownItem-content">
         <span>品牌旗艦</span>
         <ul>
           <li><a href="#">Bose旗艦館</a></li>
@@ -224,12 +260,18 @@
           <li><a href="#">相機電池</a></li>
           <li><a href="#">閱讀器</a></li>
         </ul>
-        <span>所有數位</span>
+        <span class="others"
+          ><a href="#">所有數位</a><i class="fa-solid fa-caret-right fa-xl"></i
+        ></span>
+      </div>
+      <div class="dropdownItem-photo">
+        <img src="../assets/PIC/menubar/digit/SWITCH.jpg" alt="SWITCH" />
+        <img src="../assets/PIC/menubar/digit/Bose.jpg" alt="Bose" />
       </div>
     </div>
-    <div class="dropdown">
-      <button class="dropBtn">家電</button>
-      <div class="dropdown-content">
+    <div class="dropdownItem">
+      <button class="dropdownBtn">家電</button>
+      <div class="dropdownItem-content">
         <span>品牌旗艦</span>
         <ul>
           <li><a href="#">母親節嚴選</a></li>
@@ -279,12 +321,21 @@
           <li><a href="#">通訊/辦公</a></li>
           <li><a href="#">南紡家電</a></li>
         </ul>
-        <span>所有家電</span>
+        <span class="others"
+          ><a href="#">所有家電</a><i class="fa-solid fa-caret-right fa-xl"></i
+        ></span>
+      </div>
+      <div class="dropdownItem-photo">
+        <img src="../assets/PIC/menubar/appliances/Dyson.jpg" alt="Dyson" />
+        <img
+          src="../assets/PIC/menubar/appliances/Panasonic.jpg"
+          alt="Panasonic"
+        />
       </div>
     </div>
-    <div class="dropdown">
-      <button class="dropBtn">日用</button>
-      <div class="dropdown-content">
+    <div class="dropdownItem">
+      <button class="dropdownBtn">日用</button>
+      <div class="dropdownItem-content">
         <span>品牌旗艦</span>
         <ul>
           <li><a href="#">舒潔</a></li>
@@ -321,12 +372,24 @@
           <li><a href="#">泰國購物</a></li>
           <li><a href="#">南紡生活</a></li>
         </ul>
-        <span>所有日用</span>
+        <span class="others"
+          ><a href="#">所有日用</a><i class="fa-solid fa-caret-right fa-xl"></i
+        ></span>
+      </div>
+      <div class="dropdownItem-photo">
+        <img
+          src="../assets/PIC/menubar/daily_necessities/pampers.jpg"
+          alt="pampers"
+        />
+        <img
+          src="../assets/PIC/menubar/daily_necessities/orangeHouse.jpg"
+          alt="orange house"
+        />
       </div>
     </div>
-    <div class="dropdown">
-      <button class="dropBtn">母嬰</button>
-      <div class="dropdown-content">
+    <div class="dropdownItem">
+      <button class="dropdownBtn">母嬰</button>
+      <div class="dropdownItem-content">
         <span>品牌旗艦</span>
         <ul>
           <li><a href="#">樂高®</a></li>
@@ -354,12 +417,21 @@
           <li><a href="#">卡通館</a></li>
           <li><a href="#">兒童家具</a></li>
         </ul>
-        <span>所有母嬰</span>
+        <span class="others"
+          ><a href="#">所有母嬰</a><i class="fa-solid fa-caret-right fa-xl"></i
+        ></span>
+      </div>
+      <div class="dropdownItem-photo">
+        <img src="../assets/PIC/menubar/mother_n_baby/NVNA.jpg" alt="NVNA" />
+        <img
+          src="../assets/PIC/menubar/mother_n_baby/pigeon.jpg"
+          alt="pigeon"
+        />
       </div>
     </div>
-    <div class="dropdown">
-      <button class="dropBtn">食品</button>
-      <div class="dropdown-content">
+    <div class="dropdownItem">
+      <button class="dropdownBtn">食品</button>
+      <div class="dropdownItem-content">
         <span>品牌旗艦</span>
         <ul>
           <li><a href="#">雀巢</a></li>
@@ -406,12 +478,18 @@
           <li><a href="#">南紡食品</a></li>
           <li><a href="#">泰國購物</a></li>
         </ul>
-        <span>所有食品</span>
+        <span class="others"
+          ><a href="#">所有食品</a><i class="fa-solid fa-caret-right fa-xl"></i
+        ></span>
+      </div>
+      <div class="dropdownItem-photo">
+        <img src="../assets/PIC/menubar/food/cookie.jpg" alt="cookie" />
+        <img src="../assets/PIC/menubar/food/cake.jpg" alt="cake" />
       </div>
     </div>
-    <div class="dropdown">
-      <button class="dropBtn">生活</button>
-      <div class="dropdown-content">
+    <div class="dropdownItem">
+      <button class="dropdownBtn">生活</button>
+      <div class="dropdownItem-content">
         <span>品牌旗艦</span>
         <ul>
           <li><a href="#">MUJI無印良品</a></li>
@@ -454,12 +532,18 @@
           <li><a href="#">綠色商品</a></li>
           <li><a href="#">票券</a></li>
         </ul>
-        <span>所有生活</span>
+        <span class="others"
+          ><a href="#">所有生活</a><i class="fa-solid fa-caret-right fa-xl"></i
+        ></span>
+      </div>
+      <div class="dropdownItem-photo">
+        <img src="../assets/PIC/menubar/life/MUJI.jpg" alt="MUJI" />
+        <img src="../assets/PIC/menubar/life/pot.jpg" alt="pot" />
       </div>
     </div>
-    <div class="dropdown">
-      <button class="dropBtn">居家</button>
-      <div class="dropdown-content">
+    <div class="dropdownItem">
+      <button class="dropdownBtn">居家</button>
+      <div class="dropdownItem-content">
         <span>品牌旗艦</span>
         <ul>
           <li><a href="#">BOSCH</a></li>
@@ -500,12 +584,21 @@
           <li><a href="#">開運</a></li>
           <li><a href="#">企業批發採購</a></li>
         </ul>
-        <span>所有居家</span>
+        <span class="others"
+          ><a href="#">所有居家</a><i class="fa-solid fa-caret-right fa-xl"></i
+        ></span>
+      </div>
+      <div class="dropdownItem-photo">
+        <img
+          src="../assets/PIC/menubar/home/mahjongTable.jpg"
+          alt="mahjong Table"
+        />
+        <img src="../assets/PIC/menubar/home/cabinet.jpg" alt="cabinet" />
       </div>
     </div>
-    <div class="dropdown">
-      <button class="dropBtn">休閒</button>
-      <div class="dropdown-content">
+    <div class="dropdownItem">
+      <button class="dropdownBtn">休閒</button>
+      <div class="dropdownItem-content">
         <span>品牌旗艦</span>
         <ul>
           <li><a href="#">GARMIN</a></li>
@@ -563,12 +656,18 @@
           <li><a href="#">瑜珈</a></li>
           <li><a href="#">GoPrp</a></li>
         </ul>
-        <span>所有休閒</span>
+        <span class="others"
+          ><a href="#">所有休閒</a><i class="fa-solid fa-caret-right fa-xl"></i
+        ></span>
+      </div>
+      <div class="dropdownItem-photo">
+        <img src="../assets/PIC/menubar/casual/GARMIN.jpg" alt="GARMIN" />
+        <img src="../assets/PIC/menubar/casual/BH.jpg" alt="BH" />
       </div>
     </div>
-    <div class="dropdown">
-      <button class="dropBtn">保健</button>
-      <div class="dropdown-content">
+    <div class="dropdownItem">
+      <button class="dropdownBtn">保健</button>
+      <div class="dropdownItem-content">
         <span>品牌旗艦</span>
         <ul>
           <li><a href="#">世界健康日</a></li>
@@ -610,12 +709,21 @@
           <li><a href="#">醫療口罩</a></li>
           <li><a href="#">銀髮族</a></li>
         </ul>
-        <span>所有保健</span>
+        <span class="others"
+          ><a href="#">所有保健</a><i class="fa-solid fa-caret-right fa-xl"></i
+        ></span>
+      </div>
+      <div class="dropdownItem-photo">
+        <img
+          src="../assets/PIC/menubar/heathly/gift.jpg"
+          alt="health medicine"
+        />
+        <img src="../assets/PIC/menubar/heathly/diabetes.jpg" alt="diabetes" />
       </div>
     </div>
-    <div class="dropdown">
-      <button class="dropBtn">美妝</button>
-      <div class="dropdown-content">
+    <div class="dropdownItem">
+      <button class="dropdownBtn">美妝</button>
+      <div class="dropdownItem-content">
         <span>品牌旗艦</span>
         <ul>
           <li><a href="#">碧兒泉</a></li>
@@ -661,12 +769,18 @@
           <li><a href="#">南紡美妝</a></li>
           <li><a href="#">艾夫美</a></li>
         </ul>
-        <span>所有美妝</span>
+        <span class="others"
+          ><a href="#">所有美妝</a><i class="fa-solid fa-caret-right fa-xl"></i
+        ></span>
+      </div>
+      <div class="dropdownItem-photo">
+        <img src="../assets/PIC/menubar/makeups/REUZEL.jpg" alt="REUZEL" />
+        <img src="../assets/PIC/menubar/makeups/LOREAL.jpg" alt="LOREAL" />
       </div>
     </div>
-    <div class="dropdown">
-      <button class="dropBtn">時尚</button>
-      <div class="dropdown-content">
+    <div class="dropdownItem">
+      <button class="dropdownBtn">時尚</button>
+      <div class="dropdownItem-content">
         <span>品牌旗艦</span>
         <ul>
           <li><a href="#">Levis</a></li>
@@ -717,54 +831,89 @@
           <li><a href="#">南紡時尚</a></li>
           <li><a href="#">MiTCH</a></li>
         </ul>
-        <span>所有時尚</span>
+        <span class="others"
+          ><a href="#">所有時尚</a><i class="fa-solid fa-caret-right fa-xl"></i
+        ></span>
+      </div>
+      <div class="dropdownItem-photo">
+        <img src="../assets/PIC/menubar/fashion/Clanks.jpg" alt="Clanks" />
+        <img src="../assets/PIC/menubar/fashion/Lynx.jpg" alt="Lynx" />
       </div>
     </div>
-    <button class="dropBtn">書店</button>
+    <button class="dropdownBtn">書店</button>
   </div>
 </template>
 <style scoped>
-.dropdown {
+.drpdownNavbar,
+.dropdownBtn {
   position: relative;
-  display: inline-block;
-}
-.dropBtn {
+  display: flex;
   background-color: #eb1716;
+  font-family: 微軟正黑體, Arial, Helvetica, sans-serif;
+  height: 45px;
+}
+.dropdownBtn {
   color: white;
   border: none;
   padding: 10px;
+  left: 30px;
   cursor: pointer;
   font-weight: bold;
-  font-size: medium;
-  font-family: 微軟正黑體, Arial, Helvetica, sans-serif;
+  font-size: 18px;
 }
 
-.dropdown-content {
+.dropdownItem-content,
+.dropdownItem-photo {
   display: none;
   position: absolute;
   background-color: #fff;
+  left: 0px;
 }
-.dropdown-content > span {
+span {
   font-weight: bold;
+  padding: 20px;
 }
 
-.dropdown-content a {
-  display: block;
+.dropdownItem-content a {
   text-decoration: none;
-  color: black;
+  color: #2b2b2b;
 }
 
-.dropdown-content > span ~ ul {
-  display: flex;
-}
-
-.dropdown:hover .dropdown-content {
+.dropdownItem:hover .dropdownItem-content {
   display: block;
-  display: flex;
   align-items: stretch;
+  height: 450px;
+  width: 100%;
 }
-.dropdown:hover .dropBtn {
+.dropdownItem:hover .dropdownItem-photo {
+  display: block;
+  left: 750px;
+  top: 80px;
+}
+.dropdownItem:hover .dropdownBtn {
   background-color: #fff;
   color: #eb1716;
+  border-radius: 10px 10px 0 0;
+  box-shadow: 0px -3px #b50000;
+}
+.others a,
+i {
+  align-items: center;
+  color: #0090eb;
+}
+ul {
+  list-style: none;
+  width: 600px;
+}
+
+li {
+  float: left;
+  padding: 5px;
+  font-size: 14px;
+  color: #2b2b2b;
+}
+img {
+  border-radius: 10px;
+  margin: 10px;
 }
 </style>
