@@ -1,20 +1,8 @@
 <template>
-  <NavBar />
-  <SearchBar />
-  <MenuBar />
-  <LeftBar />
-  <CenterBar />
+  <TheLayout>
+    <router-view></router-view>
+  </TheLayout>
 </template>
-<script setup>
-import NavBar from "./components/NavBar.vue";
-import SearchBar from "./components/SearchBar.vue";
-import MenuBar from "./components/MenuBar.vue";
-import LeftBar from "./components/LeftBar.vue";
-import CenterBar from "./components/CenterBar.vue";
+<script>
+import TheLayout from "./components/TheLayout.vue";
 </script>
-
-<style scoped>
-* {
-  background-color: #f2f2f2;
-}
-</style>
